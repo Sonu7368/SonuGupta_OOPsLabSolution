@@ -30,6 +30,7 @@ public class DriverClass {
         int departmentChoice = sc.nextInt();
         if (departmentChoice < 1 || departmentChoice > 4) {
             System.out.println("Invalid Department");
+            sc.close();
             return;
         }
 
